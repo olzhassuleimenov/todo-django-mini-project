@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Detail</title>
+</head>
+<body>
+    <h1>{{ task.title }}</h1>
+    <p>{{ task.description }}</p>
+    <a href="{% url 'task_update' task.pk %}">Update</a>
+    <a href="{% url 'task_delete' task.pk %}">Delete</a>
+</body>
+</html>
