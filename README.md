@@ -11,7 +11,7 @@ This is a simple Todo application built with Django.
 
 ## Installation
 Clone the repository:
-   git clone https://github.com/olzhassuleimenov/django-todo.git
+   git clone https://github.com/olzhassuleimenov/todo-django-mini-project.git
 
 Navigate to the project directory:
   cd django-todo
